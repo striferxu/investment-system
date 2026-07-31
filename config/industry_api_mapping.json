@@ -1,0 +1,144 @@
+{
+  "industries": [
+    {
+      "old_code": "BK0477",
+      "name": "半导体",
+      "etf": "159813",
+      "t2_code": "BK1036",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0481",
+      "name": "消费电子",
+      "etf": "",
+      "t2_code": "BK1037",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0479",
+      "name": "人工智能",
+      "etf": "515070",
+      "t2_code": null,
+      "t3_code": "BK0800"
+    },
+    {
+      "old_code": "BK0489",
+      "name": "新能源汽车",
+      "etf": "515030",
+      "t2_code": null,
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0717",
+      "name": "光伏",
+      "etf": "515790",
+      "t2_code": null,
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0545",
+      "name": "医药生物",
+      "etf": "512010",
+      "t2_code": "BK1216",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0433",
+      "name": "食品饮料",
+      "etf": "515170",
+      "t2_code": "BK0438",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0896",
+      "name": "银行",
+      "etf": "512800",
+      "t2_code": "BK1283",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0475",
+      "name": "证券",
+      "etf": "512880",
+      "t2_code": "BK0473",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0451",
+      "name": "房地产",
+      "etf": "512200",
+      "t2_code": "BK1202",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0430",
+      "name": "煤炭",
+      "etf": "515220",
+      "t2_code": "BK0437",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0548",
+      "name": "有色金属",
+      "etf": "512400",
+      "t2_code": "BK0478",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0737",
+      "name": "电力",
+      "etf": "159611",
+      "t2_code": "BK0428",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0456",
+      "name": "国防军工",
+      "etf": "512660",
+      "t2_code": "BK1204",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0440",
+      "name": "通信",
+      "etf": "159880",
+      "t2_code": "BK1215",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0474",
+      "name": "计算机",
+      "etf": "512720",
+      "t2_code": "BK1207",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0546",
+      "name": "医疗器械",
+      "etf": "159883",
+      "t2_code": "BK1041",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0431",
+      "name": "钢铁",
+      "etf": "515210",
+      "t2_code": "BK0479",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0748",
+      "name": "建筑装饰",
+      "etf": "",
+      "t2_code": "BK1209",
+      "t3_code": null
+    },
+    {
+      "old_code": "BK0507",
+      "name": "汽车",
+      "etf": "516110",
+      "t2_code": "BK1211",
+      "t3_code": null
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "macro": {
+    "name": "宏观层",
+    "weight": 0.333,
+    "dimensions": [
+      { "id": "M01", "name": "经济景气度", "initial": 0.0, "range": [-1, 1], "confidence": 0.85, "desc": "-1=深度衰退 → +1=过热繁荣" },
+      { "id": "M02", "name": "货币宽松度", "initial": 0.0, "range": [-1, 1], "confidence": 0.85, "desc": "-1=极度紧缩 → +1=极度宽松" },
+      { "id": "M03", "name": "市场风险偏好", "initial": 0.0, "range": [-1, 1], "confidence": 0.75, "desc": "-1=恐慌抛售 → +1=贪婪追涨" },
+      { "id": "M04", "name": "不确定性溢价", "initial": 0.0, "range": [-1, 1], "confidence": 0.65, "desc": "-1=高度确定 → +1=极度混乱" }
+    ]
+  },
+  "industry": {
+    "name": "行业层",
+    "weight": 0.333,
+    "dimensions": [
+      { "id": "I01", "name": "行业景气趋势", "initial": 0.0, "range": [-1, 1], "confidence": 0.70, "desc": "-1=加速恶化 → +1=加速改善" },
+      { "id": "I02", "name": "政策导向", "initial": 0.0, "range": [-1, 1], "confidence": 0.65, "desc": "-1=强监管打压 → +1=强扶持鼓励" },
+      { "id": "I03", "name": "资金聚集度", "initial": 0.0, "range": [-1, 1], "confidence": 0.70, "desc": "-1=资金持续流出 → +1=资金加速涌入" },
+      { "id": "I04", "name": "估值合理性", "initial": 0.0, "range": [-1, 1], "confidence": 0.85, "desc": "-1=极度高估(>90%分位) → +1=极度低估(<10%分位)" },
+      { "id": "I05", "name": "产业变革强度", "initial": 0.0, "range": [-1, 1], "confidence": 0.50, "desc": "-1=技术颠覆/模式崩坏 → +1=重大突破/拐点" }
+    ]
+  },
+  "stock": {
+    "name": "微观层",
+    "weight": 0.333,
+    "dimensions": [
+      { "id": "S01", "name": "基本面硬度", "initial": 0.0, "range": [-1, 1], "confidence": 0.70, "desc": "-1=盈利恶化/负债压顶 → +1=盈利加速/现金流充裕" },
+      { "id": "S02", "name": "相对价值", "initial": 0.0, "range": [-1, 1], "confidence": 0.75, "desc": "-1=比同行贵很多 → +1=比同行便宜很多" },
+      { "id": "S03", "name": "动量趋势", "initial": 0.0, "range": [-1, 1], "confidence": 0.60, "desc": "-1=趋势破位/资金出逃 → +1=趋势健康/资金涌入" },
+      { "id": "S04", "name": "催化剂密度", "initial": 0.0, "range": [-1, 1], "confidence": 0.50, "desc": "-1=负面催化剂密集 → +1=正面催化剂密集" }
+    ]
+  },
+  "dynamic_constraints": {
+    "momentum_decay": {
+      "name": "动量衰减约束",
+      "max_weight": 0.15,
+      "active": true,
+      "desc": "动量维度权重上限15%，防止追涨杀跌"
+    },
+    "value_trap_protection": {
+      "name": "估值安全线约束",
+      "trigger_when": { "I04_negative": true, "I01_negative": true },
+      "penalty_factor": 0.6,
+      "active": true,
+      "desc": "估值低但景气向下视为价值陷阱，行业分打折×0.6"
+    },
+    "uncertainty_risk_control": {
+      "name": "不确定性风控",
+      "trigger_when": { "M04_gt": 0.5 },
+      "max_position": 0.6,
+      "active": true,
+      "desc": "不确定性溢价>0.5时，仓位上限降到60%"
+    }
+  }
+}

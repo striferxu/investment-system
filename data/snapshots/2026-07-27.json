@@ -1,0 +1,2850 @@
+{
+  "date": "2026-07-27",
+  "macro_values": {
+    "M01": 1,
+    "M02": 0.7000000000000001,
+    "M03": 1,
+    "M04": 0.6799999999999986
+  },
+  "dim_weights": {
+    "M01": 0.25,
+    "M02": 0.25,
+    "M03": 0.25,
+    "M04": 0.25,
+    "I01": 0.70288469880649,
+    "I02": 0.0009917946688567003,
+    "I03": 0.0009917946688567003,
+    "I04": 0.003938151095187318,
+    "I05": 0.29119356076060926,
+    "S01": 0.25,
+    "S02": 0.25,
+    "S03": 0.25,
+    "S04": 0.25
+  },
+  "dim_confidences": {
+    "M01": 0.85,
+    "M02": 0.85,
+    "M03": 0.75,
+    "M04": 0.65,
+    "I01": 0.5206735755995048,
+    "I02": 0.4527409331594554,
+    "I03": 0.3962606181449001,
+    "I04": 0.63738243270143,
+    "I05": 0.24894300583930695,
+    "S01": 0.7,
+    "S02": 0.75,
+    "S03": 0.6,
+    "S04": 0.5
+  },
+  "industry_values": {
+    "BK0477": {
+      "I01": -1,
+      "I02": -0.8,
+      "I03": 1,
+      "I04": 0.41400000000000026,
+      "I05": 0.13999999999999907
+    },
+    "BK0481": {
+      "I01": 0.7950000000000005,
+      "I02": 0.8799999999999999,
+      "I03": 0.1419,
+      "I04": 0.41400000000000026,
+      "I05": 0.9949999999999999
+    },
+    "BK0479": {
+      "I01": -1,
+      "I02": -1,
+      "I03": 0.3658,
+      "I04": 0.41400000000000026,
+      "I05": -0.27000000000000157
+    },
+    "BK0489": {
+      "I01": -0.6199999999999997,
+      "I02": -1,
+      "I03": 0.1176,
+      "I04": 0.41400000000000026,
+      "I05": 0.04499999999999944
+    },
+    "BK0717": {
+      "I01": 0.0,
+      "I02": 0.0,
+      "I03": 0.1168,
+      "I04": 0.41400000000000026,
+      "I05": 0.0
+    },
+    "BK0545": {
+      "I01": -1,
+      "I02": -1,
+      "I03": 0.0586,
+      "I04": 0.41400000000000026,
+      "I05": 0.5999999999999995
+    },
+    "BK0433": {
+      "I01": 0.7850000000000025,
+      "I02": 0.8,
+      "I03": 0.3175,
+      "I04": 0.41400000000000026,
+      "I05": 0.95
+    },
+    "BK0896": {
+      "I01": 0.9750000000000003,
+      "I02": 1,
+      "I03": 0.4,
+      "I04": 0.41400000000000026,
+      "I05": 1
+    },
+    "BK0475": {
+      "I01": -0.19499999999999992,
+      "I02": 0.1200000000000001,
+      "I03": 1,
+      "I04": 0.41400000000000026,
+      "I05": 0.9249999999999998
+    },
+    "BK0451": {
+      "I01": 0.6200000000000002,
+      "I02": 1,
+      "I03": 0.156,
+      "I04": 0.41400000000000026,
+      "I05": 1
+    },
+    "BK0430": {
+      "I01": -0.42000000000000004,
+      "I02": -0.8,
+      "I03": 1,
+      "I04": 0.41400000000000026,
+      "I05": -0.13
+    },
+    "BK0548": {
+      "I01": -0.13999999999999996,
+      "I02": 0.20000000000000007,
+      "I03": 0.2511,
+      "I04": 0.41400000000000026,
+      "I05": 0.29000000000000015
+    },
+    "BK0737": {
+      "I01": -0.6649999999999996,
+      "I02": -0.20000000000000018,
+      "I03": 0.1293,
+      "I04": 0.41400000000000026,
+      "I05": 0.5399999999999998
+    },
+    "BK0456": {
+      "I01": 1,
+      "I02": 1,
+      "I03": 0.7499999999999999,
+      "I04": 0.41400000000000026,
+      "I05": 1
+    },
+    "BK0440": {
+      "I01": 1,
+      "I02": 1,
+      "I03": 0.1168,
+      "I04": 0.41400000000000026,
+      "I05": 1
+    },
+    "BK0474": {
+      "I01": 0.65,
+      "I02": 1,
+      "I03": 0.3658,
+      "I04": 0.41400000000000026,
+      "I05": 0.9749999999999998
+    },
+    "BK0546": {
+      "I01": -1,
+      "I02": -1,
+      "I03": 1,
+      "I04": 0.41400000000000026,
+      "I05": -0.8750000000000002
+    },
+    "BK0431": {
+      "I01": -0.11499999999999999,
+      "I02": -0.20000000000000007,
+      "I03": 0.3399,
+      "I04": 0.41400000000000026,
+      "I05": -0.010000000000000023
+    },
+    "BK0748": {
+      "I01": -0.9749999999999999,
+      "I02": -0.8,
+      "I03": 0.4648,
+      "I04": 0.41400000000000026,
+      "I05": -0.5300000000000001
+    },
+    "BK0507": {
+      "I01": 0.43,
+      "I02": 0.2799999999999999,
+      "I03": 0.1176,
+      "I04": 0.41400000000000026,
+      "I05": 0.8199999999999998
+    }
+  },
+  "stock_values": {
+    "BK0477": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.9405,
+      "S04": 0.0028,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0481": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.0,
+      "S04": 0.0071,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0479": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -1.0,
+      "S04": 0.0219,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0489": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.6055,
+      "S04": 0.0287,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0717": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.948,
+      "S04": 0.007,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0545": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.4735,
+      "S04": 0.0011,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0433": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.349,
+      "S04": 0.0313,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0896": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.402,
+      "S04": 0.0041,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0475": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.026,
+      "S04": 0.007,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0451": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.284,
+      "S04": 0.0089,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0430": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.465,
+      "S04": 0.0076,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0548": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.279,
+      "S04": 0.0052,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0737": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.113,
+      "S04": 0.0098,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0456": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.6635,
+      "S04": 0.0098,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0440": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.3015,
+      "S04": 0.0053,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0474": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.19,
+      "S04": 0.0119,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0546": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.1695,
+      "S04": 0.0056,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0431": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": -0.066,
+      "S04": 0.0052,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0748": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.0,
+      "S04": 0.005,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    },
+    "BK0507": {
+      "S01": 0.0,
+      "S02": 0.0,
+      "S03": 0.105,
+      "S04": 0.0063,
+      "pe": 0,
+      "price": 0,
+      "change_pct": 0
+    }
+  },
+  "active_event_impacts": [
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0479",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": 8.000000000000007e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": 2.000000000000002e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0479",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": 8.000000000000007e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": 2.000000000000002e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 34,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0479",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0479",
+      "delta_per_day": 8.000000000000007e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0479",
+      "delta_per_day": 2.000000000000002e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0479",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": 7.777777777777784e-05,
+      "remaining_days": 45,
+      "source": "地缘冲突_升级"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": -4.444444444444449e-05,
+      "remaining_days": 45,
+      "source": "地缘冲突_升级"
+    },
+    {
+      "dim_id": "M01",
+      "target": null,
+      "delta_per_day": -1.1111111111111122e-05,
+      "remaining_days": 45,
+      "source": "地缘冲突_升级"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0479",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0545",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0545",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0545",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "M02",
+      "target": null,
+      "delta_per_day": 0.00010000000000000009,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": 2.500000000000002e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": -2.500000000000002e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0481",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0717",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0545",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0896",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0475",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0451",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0430",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0548",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0456",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0440",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0474",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0546",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0431",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0748",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0507",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 29,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0451",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0451",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0451",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "M02",
+      "target": null,
+      "delta_per_day": 0.00010000000000000009,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": 2.500000000000002e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": -2.500000000000002e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0481",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0717",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0545",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0896",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0475",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0451",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0430",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0548",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0456",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0440",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0474",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0546",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0431",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0748",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0507",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 5,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 8.000000000000007e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 2.000000000000002e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0737",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0737",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0545",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0545",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0545",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 35,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0479",
+      "delta_per_day": -3.0000000000000024e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0479",
+      "delta_per_day": -1.125000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0479",
+      "delta_per_day": -7.500000000000006e-06,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": 7.777777777777784e-05,
+      "remaining_days": 21,
+      "source": "地缘冲突_升级"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": -4.444444444444449e-05,
+      "remaining_days": 21,
+      "source": "地缘冲突_升级"
+    },
+    {
+      "dim_id": "M01",
+      "target": null,
+      "delta_per_day": -1.1111111111111122e-05,
+      "remaining_days": 21,
+      "source": "地缘冲突_升级"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "M02",
+      "target": null,
+      "delta_per_day": 0.00010000000000000009,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": 2.500000000000002e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": -2.500000000000002e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0481",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0717",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0545",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0896",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0475",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0451",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0430",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0548",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0456",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0440",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0474",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0546",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0431",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0748",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0507",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "M01",
+      "target": null,
+      "delta_per_day": 0.0002500000000000002,
+      "remaining_days": 20,
+      "source": "经济数据_超预期"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": 0.0001250000000000001,
+      "remaining_days": 20,
+      "source": "经济数据_超预期"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": -6.250000000000006e-05,
+      "remaining_days": 20,
+      "source": "经济数据_超预期"
+    },
+    {
+      "dim_id": "M02",
+      "target": null,
+      "delta_per_day": 0.00010000000000000009,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": 2.500000000000002e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": -2.500000000000002e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0481",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0479",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0717",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0545",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0896",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0475",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0451",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0430",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0548",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0737",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0456",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0440",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0474",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0546",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0431",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0748",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0507",
+      "delta_per_day": 1.5000000000000012e-05,
+      "remaining_days": 6,
+      "source": "货币政策_降息"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 8.000000000000007e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 2.000000000000002e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0545",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0545",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0545",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0477",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0545",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0545",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0545",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0433",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0433",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0433",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 36,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0475",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0475",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0475",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0475",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0475",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0475",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0507",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 50,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0507",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 50,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0507",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 50,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0896",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0896",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0896",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0481",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0481",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0481",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0456",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 57,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0456",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 57,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0456",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 57,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0548",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0548",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0548",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0440",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0440",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0440",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0431",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 52,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0431",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 52,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0431",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 52,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0748",
+      "delta_per_day": 3.0000000000000024e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0748",
+      "delta_per_day": 7.500000000000006e-06,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0748",
+      "delta_per_day": 1.125000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0474",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0474",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0474",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0546",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0546",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0546",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0748",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0748",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0748",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0737",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0737",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0737",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0440",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 57,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0440",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 57,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0440",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 57,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0489",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0489",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0489",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0430",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 53,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0430",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 53,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0430",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 53,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0430",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0430",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0430",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0548",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 58,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0548",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 58,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0548",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 58,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0507",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 59,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0507",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 59,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0507",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 59,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0431",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 53,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0431",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 53,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0431",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 53,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0896",
+      "delta_per_day": -8.000000000000007e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0896",
+      "delta_per_day": -3.0000000000000024e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0896",
+      "delta_per_day": -2.000000000000002e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0546",
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 43,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0546",
+      "delta_per_day": 1.250000000000001e-05,
+      "remaining_days": 43,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0546",
+      "delta_per_day": 1.8750000000000015e-05,
+      "remaining_days": 43,
+      "source": "产业政策_利好"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0481",
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 59,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0481",
+      "delta_per_day": -1.8750000000000015e-05,
+      "remaining_days": 59,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0481",
+      "delta_per_day": -1.250000000000001e-05,
+      "remaining_days": 59,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "M01",
+      "target": null,
+      "delta_per_day": -0.0002500000000000002,
+      "remaining_days": 19,
+      "source": "经济数据_不及预期"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": -0.0001250000000000001,
+      "remaining_days": 19,
+      "source": "经济数据_不及预期"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": 6.250000000000006e-05,
+      "remaining_days": 19,
+      "source": "经济数据_不及预期"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0477",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0481",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0479",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0489",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0717",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0545",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0433",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0896",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0475",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0451",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0430",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0548",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0737",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0456",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0440",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0474",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0546",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0431",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0748",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I03",
+      "target": "industry:BK0507",
+      "delta_per_day": 0.0007499999999999998,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": 0.0003999999999999999,
+      "remaining_days": 9,
+      "source": "外资异动"
+    },
+    {
+      "dim_id": "I02",
+      "target": "industry:BK0451",
+      "delta_per_day": -3.0000000000000024e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I01",
+      "target": "industry:BK0451",
+      "delta_per_day": -1.125000000000001e-05,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "I05",
+      "target": "industry:BK0451",
+      "delta_per_day": -7.500000000000006e-06,
+      "remaining_days": 60,
+      "source": "产业政策_利空"
+    },
+    {
+      "dim_id": "M02",
+      "target": null,
+      "delta_per_day": -0.00010000000000000009,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": -5.000000000000004e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": 5.000000000000004e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0477",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0481",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0479",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0489",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0717",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0545",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0433",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0896",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0475",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0451",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0430",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0548",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0737",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0456",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0440",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0474",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0546",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0431",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0748",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "I04",
+      "target": "industry:BK0507",
+      "delta_per_day": -1.5000000000000012e-05,
+      "remaining_days": 30,
+      "source": "货币政策_加息"
+    },
+    {
+      "dim_id": "M04",
+      "target": null,
+      "delta_per_day": -0.00015000000000000012,
+      "remaining_days": 30,
+      "source": "地缘冲突_缓和"
+    },
+    {
+      "dim_id": "M03",
+      "target": null,
+      "delta_per_day": 7.500000000000006e-05,
+      "remaining_days": 30,
+      "source": "地缘冲突_缓和"
+    },
+    {
+      "dim_id": "M01",
+      "target": null,
+      "delta_per_day": 2.500000000000002e-05,
+      "remaining_days": 30,
+      "source": "地缘冲突_缓和"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "货币政策_降息": {
+    "categories": ["货币政策"],
+    "affected_dimensions": {
+      "M02": { "base_delta": 0.20, "desc": "货币宽松度上升" },
+      "M03": { "base_delta": 0.05, "desc": "风险偏好上升" },
+      "M04": { "base_delta": -0.05, "desc": "不确定性下降" },
+      "I04": { "base_delta": 0.03, "desc": "折现率下降→资产重估" }
+    },
+    "decay_days": 30,
+    "decay_rate": 0.97,
+    "confidence": 0.80,
+    "intensity_source": "实际降息幅度 / 市场预期幅度",
+    "desc": "降息→流动性宽松→风险资产吸引力上升"
+  },
+  "货币政策_加息": {
+    "categories": ["货币政策"],
+    "affected_dimensions": {
+      "M02": { "base_delta": -0.20, "desc": "货币宽松度下降" },
+      "M03": { "base_delta": -0.10, "desc": "风险偏好下降" },
+      "M04": { "base_delta": 0.10, "desc": "不确定性上升" },
+      "I04": { "base_delta": -0.03, "desc": "折现率上升→资产承压" }
+    },
+    "decay_days": 30,
+    "decay_rate": 0.97,
+    "confidence": 0.80,
+    "intensity_source": "实际加息幅度 / 市场预期幅度",
+    "desc": "加息→流动性收紧→风险资产承压"
+  },
+  "产业政策_利好": {
+    "categories": ["产业政策"],
+    "affected_dimensions": {
+      "I02": { "base_delta": 0.40, "desc": "政策导向走强" },
+      "I01": { "base_delta": 0.10, "desc": "景气改善预期" },
+      "I05": { "base_delta": 0.15, "desc": "产业变革加速预期" }
+    },
+    "decay_days": 60,
+    "decay_rate": 0.985,
+    "confidence": 0.75,
+    "intensity_source": "政策文件级别(国务院/部委/地方)",
+    "desc": "产业扶持政策→行业前景改善"
+  },
+  "产业政策_利空": {
+    "categories": ["产业政策"],
+    "affected_dimensions": {
+      "I02": { "base_delta": -0.40, "desc": "政策导向走弱" },
+      "I01": { "base_delta": -0.15, "desc": "景气恶化预期" },
+      "I05": { "base_delta": -0.10, "desc": "产业变革受抑" }
+    },
+    "decay_days": 60,
+    "decay_rate": 0.985,
+    "confidence": 0.75,
+    "intensity_source": "政策文件级别(国务院/部委/地方)",
+    "desc": "监管/打压政策→行业前景承压"
+  },
+  "地缘冲突_升级": {
+    "categories": ["地缘冲突"],
+    "affected_dimensions": {
+      "M04": { "base_delta": 0.35, "desc": "不确定性飙升" },
+      "M03": { "base_delta": -0.20, "desc": "风险偏好暴跌" },
+      "M01": { "base_delta": -0.05, "desc": "经济预期承压" }
+    },
+    "decay_days": 45,
+    "decay_rate": 0.98,
+    "confidence": 0.70,
+    "intensity_source": "冲突烈度(轻微/中等/重大)",
+    "global": true,
+    "desc": "地缘冲突→避险情绪→不确定性上升"
+  },
+  "地缘冲突_缓和": {
+    "categories": ["地缘冲突"],
+    "affected_dimensions": {
+      "M04": { "base_delta": -0.30, "desc": "不确定性下降" },
+      "M03": { "base_delta": 0.15, "desc": "风险偏好修复" },
+      "M01": { "base_delta": 0.05, "desc": "经济预期修复" }
+    },
+    "decay_days": 30,
+    "decay_rate": 0.97,
+    "confidence": 0.70,
+    "intensity_source": "缓和程度",
+    "global": true,
+    "desc": "地缘缓和→风险偏好修复"
+  },
+  "经济数据_超预期": {
+    "categories": ["关键经济数据"],
+    "affected_dimensions": {
+      "M01": { "base_delta": 0.20, "desc": "景气度上升" },
+      "M03": { "base_delta": 0.10, "desc": "风险偏好上升" },
+      "M04": { "base_delta": -0.05, "desc": "不确定性下降" }
+    },
+    "decay_days": 20,
+    "decay_rate": 0.95,
+    "confidence": 0.85,
+    "intensity_source": "实际数据 vs 市场预期(%)",
+    "global": true,
+    "desc": "宏观数据超预期→经济信心增强"
+  },
+  "经济数据_不及预期": {
+    "categories": ["关键经济数据"],
+    "affected_dimensions": {
+      "M01": { "base_delta": -0.20, "desc": "景气度下降" },
+      "M03": { "base_delta": -0.10, "desc": "风险偏好下降" },
+      "M04": { "base_delta": 0.05, "desc": "不确定性上升" }
+    },
+    "decay_days": 20,
+    "decay_rate": 0.95,
+    "confidence": 0.85,
+    "intensity_source": "实际数据 vs 市场预期(%)",
+    "global": true,
+    "desc": "宏观数据不及预期→经济信心受损"
+  },
+  "公司事件_利好": {
+    "categories": ["公司事件"],
+    "affected_dimensions": {
+      "S01": { "base_delta": 0.20, "desc": "基本面走强" },
+      "S04": { "base_delta": 0.30, "desc": "正面催化剂" },
+      "S03": { "base_delta": 0.10, "desc": "动量增强" }
+    },
+    "decay_days": 20,
+    "decay_rate": 0.95,
+    "confidence": 0.70,
+    "intensity_source": "事件重要性(重大/中等/一般)",
+    "desc": "公司正面事件→个股评分上升"
+  },
+  "公司事件_利空": {
+    "categories": ["公司事件"],
+    "affected_dimensions": {
+      "S01": { "base_delta": -0.20, "desc": "基本面走弱" },
+      "S04": { "base_delta": -0.30, "desc": "负面催化剂" },
+      "S03": { "base_delta": -0.15, "desc": "动量承压" }
+    },
+    "decay_days": 20,
+    "decay_rate": 0.95,
+    "confidence": 0.70,
+    "intensity_source": "事件重要性(重大/中等/一般)",
+    "desc": "公司负面事件→个股评分下降"
+  },
+  "外资异动": {
+    "categories": ["市场情绪事件"],
+    "affected_dimensions": {
+      "I03": { "base_delta": 0.15, "desc": "资金聚集度变化" },
+      "M03": { "base_delta": 0.08, "desc": "风险偏好变化" }
+    },
+    "decay_days": 10,
+    "decay_rate": 0.90,
+    "confidence": 0.65,
+    "intensity_source": "净流入/出规模占日均成交额比例",
+    "desc": "北向资金异动→资金面变化"
+  }
+}

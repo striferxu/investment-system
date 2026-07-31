@@ -1,0 +1,25 @@
+{
+  "comment": "初始行业覆盖列表（申万一级+部分二级），后续可扩展",
+  "industries": [
+    { "code": "BK0477", "name": "半导体", "category": "科技", "etf": "159813" },
+    { "code": "BK0481", "name": "消费电子", "category": "科技", "etf": "" },
+    { "code": "BK0479", "name": "人工智能", "category": "科技", "etf": "515070" },
+    { "code": "BK0489", "name": "新能源汽车", "category": "制造", "etf": "515030" },
+    { "code": "BK0717", "name": "光伏", "category": "制造", "etf": "515790" },
+    { "code": "BK0545", "name": "医药生物", "category": "消费", "etf": "512010" },
+    { "code": "BK0433", "name": "食品饮料", "category": "消费", "etf": "515170" },
+    { "code": "BK0896", "name": "银行", "category": "金融", "etf": "512800" },
+    { "code": "BK0475", "name": "证券", "category": "金融", "etf": "512880" },
+    { "code": "BK0451", "name": "房地产", "category": "周期", "etf": "512200" },
+    { "code": "BK0430", "name": "煤炭", "category": "周期", "etf": "515220" },
+    { "code": "BK0548", "name": "有色金属", "category": "周期", "etf": "512400" },
+    { "code": "BK0737", "name": "电力", "category": "公用事业", "etf": "159611" },
+    { "code": "BK0456", "name": "国防军工", "category": "制造", "etf": "512660" },
+    { "code": "BK0440", "name": "通信", "category": "科技", "etf": "159880" },
+    { "code": "BK0474", "name": "计算机", "category": "科技", "etf": "512720" },
+    { "code": "BK0546", "name": "医疗器械", "category": "消费", "etf": "159883" },
+    { "code": "BK0431", "name": "钢铁", "category": "周期", "etf": "515210" },
+    { "code": "BK0748", "name": "建筑装饰", "category": "周期", "etf": "" },
+    { "code": "BK0507", "name": "汽车", "category": "制造", "etf": "516110" }
+  ]
+}
